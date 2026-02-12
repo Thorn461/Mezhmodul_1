@@ -1,38 +1,5 @@
+/* Основные стили страницы */
 body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  line-height: 1.5;
-  max-width: 900px;
-  margin: auto;
-}
-
-h1, h2 {
-  margin-top: 28px;
-}
-
-textarea {
-  width: 100%;
-  min-height: 80px;
-  margin: 8px 0 16px 0;
-}
-
-input[type="datetime-local"] {
-  width: 100%;
-  padding: 6px;
-  margin: 8px 0 16px 0;
-}
-
-label {
-  display: block;
-  margin-bottom: 8px;
-}
-
-.section {
-  margin-bottom: 32px;
-}
-
-button, .btn {
-  padding: 10px;body {
   font-family: Arial, sans-serif;
   padding: 20px;
   line-height: 1.5;
@@ -66,6 +33,7 @@ label {
   cursor: pointer;
 }
 
+/* Секции и блоки контента */
 .section {
   margin-bottom: 32px;
   padding: 16px;
@@ -87,6 +55,7 @@ label {
   margin: 12px 0;
 }
 
+/* Кнопки */
 button, .btn {
   padding: 10px;
   width: 100%;
@@ -105,21 +74,7 @@ button.secondary {
   background: #555;
 }
 
+/* Контейнер для действий */
 .actions {
   margin-top: 24px;
-}
-
-  width: 100%;
-  margin-top: 12px;
-  display: block;
-  text-align: center;
-  background: #007bff;
-  color: white;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-}
-
-button.secondary {
-  background: #555;
 }
